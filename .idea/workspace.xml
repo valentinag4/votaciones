@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="777752b3-5be9-4ab1-bd0b-0e9efe8f3f2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amorcito.py" beforeDir="false" afterPath="$PROJECT_DIR$/amorcito.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
