@@ -5,10 +5,8 @@ from flask_cors import CORS
 from waitress import serve
 import json
 
-app=Flask(__name__)
+app = Flask(__name__)
 cors = CORS(app)
-
-
 
 @app.route("/",methods=['GET'])
 def test():

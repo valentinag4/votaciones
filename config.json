@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
   "url-backend": "127.0.0.1",
-  "port": 9999
-=======
-"url-backend": "127.0.0.1",
-"port": 9999,
-
-"data-db-connection" : "mongodb+srv://valenysanti:fucsjv1jYir4R5QO@cluster0.6ibum1v.mongodb.net/bd-registro-academico?retryWrites=true&w=majority",
-"name-db": "bd-registro-academico"
->>>>>>> a90e7689f3707c24517a90371088c2394079b37a
+  "port": 9999,
+  "data-db-connection": "mongodb+srv://valenysanti:YoSdTx980bNLebsZ@cluster0.cxfcspe.mongodb.net/db-registro-resultados?retryWrites=true&w=majority",
+  "name-db": "db-registro-resultados"
 }
