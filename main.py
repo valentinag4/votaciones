@@ -1,7 +1,7 @@
 # This is a sample Python script.
 
 # Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings jejeje.
 
 
 def print_hi(name):
@@ -12,5 +12,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print('hola que mas')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
