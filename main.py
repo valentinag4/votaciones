@@ -1,12 +1,12 @@
 # This is a sample Python script.
 
 # Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings jeje.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings jejeje.
 
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi valentina , {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Hi valentina , {name}' + 'Hi santi')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
