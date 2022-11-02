@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="777752b3-5be9-4ab1-bd0b-0e9efe8f3f2a" name="Changes" comment="Second Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="777752b3-5be9-4ab1-bd0b-0e9efe8f3f2a" name="Changes" comment="Hi santi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +24,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Santiago/Personal/Cursos/Misión-TIC/Ciclo4/Sprint1/votaciones"
+    "last_opened_file_path": "D:/Santiago/Personal/Cursos/Misión-TIC/Ciclo4/ProyectosDeEjemplo/Tutorial-Mision-TIC-Flask"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,7 +43,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667340788105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Hi santi">
+      <created>1667403555148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667403555148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,6 +66,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Hi santi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hi santi" />
   </component>
 </project>
