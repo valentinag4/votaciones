@@ -26,7 +26,7 @@ def loadFileConfig():
 @app.route("/",methods=['GET'])
 def test():
     json = {}
-    json["message"]="Server running ..."
+    json["message"]="Server running ...."
     return jsonify(json)
 
 if __name__=='__main__':
