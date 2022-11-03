@@ -1,10 +1,9 @@
 from Modelos.Resultado import Resultado
 from Modelos.Mesa import Mesa
 from Modelos.Candidato import Candidato
-from Modelos.Partido import Partido
+
 from Repositorios.RepositorioResultado import RepositorioResultado
 from Repositorios.MesaRepositorio import MesaRepositorio
-from Repositorios.RepositorioPartido import RepositorioPartido
 from Repositorios.CandidatoRepositorio import CandidatoRepositorio
 
 class ControladorResultado():
@@ -12,7 +11,7 @@ class ControladorResultado():
     def __init__(self):
         self.repositorioResultado = RepositorioResultado()
         self.repositorioMesa = MesaRepositorio()
-        self.repositorioPartido = RepositorioPartido()
+        self.repositorioCandidato = CandidatoRepositorio()
 
     def index(self):
         return self.repositorioResultado.findAll()
