@@ -1,1 +1,4 @@
-#Hola a todos, este es mi branch
+from Modelos.AbstractModelo import AbstractModelo
+
+class Mesa(AbstractModelo):
+    pass
