@@ -3,15 +3,15 @@ from Modelos.Mesa import Mesa
 from Modelos.Candidato import Candidato
 from Modelos.Partido import Partido
 from Repositorios.RepositorioResultado import RepositorioResultado
-from Repositorios.RepositorioMesa import RepositorioMesa
+from Repositorios.MesaRepositorio import MesaRepositorio
 from Repositorios.RepositorioPartido import RepositorioPartido
-from Repositorios.RepositorioCandidato import RepositorioCandidato
+from Repositorios.CandidatoRepositorio import CandidatoRepositorio
 
 class ControladorResultado():
 
     def __init__(self):
         self.repositorioResultado = RepositorioResultado()
-        self.repositorioMesa = RepositorioMesa()
+        self.repositorioMesa = MesaRepositorio()
         self.repositorioPartido = RepositorioPartido()
 
     def index(self):
