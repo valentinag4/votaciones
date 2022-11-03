@@ -51,7 +51,7 @@ def modificarPartido(id):
     json=miControladorPartido.update(id,data)
     return jsonify(json)
 
-@app.route("/estudiantes/<string:id>",methods=['DELETE'])
+@app.route("/partidos/<string:id>",methods=['DELETE'])
 def eliminarPartido(id):
     json=miControladorPartido.delete(id)
     return jsonify(json)
