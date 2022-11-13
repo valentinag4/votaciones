@@ -1,74 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="777752b3-5be9-4ab1-bd0b-0e9efe8f3f2a" name="Changes" comment="config">
+    <list default="true" id="ce3042c3-503e-43b5-adfb-026ab8378ed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Votaciones-santi-valen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorPermiso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorPermisoRoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/Permiso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/PermisoRoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioPermiso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioPermisoRoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-backend/.idea/votaciones.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/votaciones.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-=======
-    <list default="true" id="777752b3-5be9-4ab1-bd0b-0e9efe8f3f2a" name="Changes" comment="Second Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 0a5166c08156214a1d5ea52202256edb00f65758
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorMesa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorPartido.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorResultado.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/AbstractModelo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Candidato.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Mesa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Partido.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Resultado.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/CandidatoRepositorio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/InterfaceRepositorio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/MesaRepositorio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioPartido.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioResultado.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2Gxp8UGrG3puDCIXo8Q7VFUxL2p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2HTElqLYP6GSk56lr71efQ0JRxa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Santiago/Personal/Cursos/Misión-TIC/Ciclo4/Sprint1/votaciones"
->>>>>>> 0a5166c08156214a1d5ea52202256edb00f65758
+    "last_opened_file_path": "C:/Users/Valentina Gomez/OneDrive/Documents/Universidad/MisionTIC/Ciclo4/primer_proyecto/Votaciones-santi-valen/Java-backend"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentina Gomez\OneDrive\Documents\Universidad\MisionTIC\Ciclo4\primer_proyecto\Votaciones-santi-valen\Java-backend\seguridad\src\main\java\tutorial.misionTIC.seguridad" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="777752b3-5be9-4ab1-bd0b-0e9efe8f3f2a" name="Changes" comment="" />
-      <created>1667339929115</created>
+      <changelist id="ce3042c3-503e-43b5-adfb-026ab8378ed6" name="Changes" comment="" />
+      <created>1668300826883</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667339929115</updated>
+      <updated>1668300826883</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00001" summary="config">
-      <created>1667403580976</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667403580976</updated>
-=======
-    <task id="LOCAL-00001" summary="Second Commit">
-      <created>1667340788105</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667340788105</updated>
->>>>>>> 0a5166c08156214a1d5ea52202256edb00f65758
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,14 +95,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
-    <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
-=======
-    <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
->>>>>>> 0a5166c08156214a1d5ea52202256edb00f65758
   </component>
 </project>

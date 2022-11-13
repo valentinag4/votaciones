@@ -1,6 +1,0 @@
-{
-  "url-backend": "127.0.0.1",
-  "port": 9999,
-  "data-db-connection": "mongodb+srv://valenysanti:YoSdTx980bNLebsZ@cluster0.cxfcspe.mongodb.net/db-registro-resultados?retryWrites=true&w=majority",
-  "name-db": "db-registro-resultados"
-}
