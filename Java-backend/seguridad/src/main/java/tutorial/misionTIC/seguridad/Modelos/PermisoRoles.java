@@ -16,7 +16,7 @@ public class PermisoRoles {
     @DBRef
     private Permiso permiso;
 
-    public PermisosRoles() {
+    public PermisoRoles() {
     }
 
     public String get_id() {
@@ -38,8 +38,6 @@ public class PermisoRoles {
     public void setPermiso(Permiso permiso) {
         this.permiso = permiso;
     }
-}
-
 
 }
 
