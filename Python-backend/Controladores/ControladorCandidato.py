@@ -10,7 +10,7 @@ class ControladorCandidato():
         self.partidoRepositorio = RepositorioPartido()
 
     def index(self):
-        print('Listando todas los candidatos...')
+        print('Listando todos los candidatos...')
         return self.candidatoRepositorio.findAll()
 
     def create(self, elCandidato):
