@@ -3,7 +3,9 @@ package tutorial.misionTIC.seguridad.Controladores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import tutorial.misionTIC.seguridad.Modelos.Rol;
 import tutorial.misionTIC.seguridad.Modelos.Usuario;
+import tutorial.misionTIC.seguridad.Repositorios.RepositorioRol;
 import tutorial.misionTIC.seguridad.Repositorios.RepositorioUsuario;
 
 import java.security.MessageDigest;
@@ -16,6 +18,9 @@ import java.util.List;
 public class ControladorUsuario {
     @Autowired
     private RepositorioUsuario miRepoUsuario;
+
+    @Autowired
+    private RepositorioRol miRepoRol;
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
@@ -60,6 +65,28 @@ public class ControladorUsuario {
                 .orElse(null);
         if(usuarioActual != null){
             this.miRepoUsuario.delete(usuarioActual);
+        }
+    }
+
+    /**
+     * Relación (1 a n) entre usuario y rol
+     * @param
+     * @return
+     * Correcto
+     */
+    @PutMapping("{id}/rol/{id_rol}")
+    public Usuario asignarRolUsuario(@PathVariable String id, @PathVariable String id_rol){
+        Usuario usuarioActual = this.miRepoUsuario
+                .findById(id)
+                .orElse(null);
+        Rol rolActual = this.miRepoRol
+                .findById(id_rol)
+                .orElse(null);
+        if(usuarioActual != null && rolActual != null){
+            usuarioActual.setRol(rolActual);
+            return this.miRepoUsuario.save(usuarioActual);
+        }else{
+            return null;
         }
     }
 
