@@ -98,6 +98,12 @@ def modificarCandidato(id):
 def eliminarCandidato(id):
     json = miControladorCandidato.delete(id)
     return jsonify(json)
+
+##RELACIÓN candidato partido####
+@app.route("/candidato/<string:id>/partido/<string:id_partido>",methods=['PUT'])
+def asignarPartidoCandidato(id,id_partido):
+    json=miControladorCandidato.asignarPartido(id,id_partido)
+    return jsonify(json)
 #----------------------------------------------------------------------------------------------
 
 #-------------------------------Edit partidos--------------------------------------------------
