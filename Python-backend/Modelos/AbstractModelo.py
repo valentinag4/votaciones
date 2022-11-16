@@ -1,6 +1,6 @@
 from abc import ABCMeta
 
-#Manipular objetos de manera independiente para nuestro modelo
+#Manipular objetos de manera independiente para nuestro modelo ok
 class AbstractModelo(metaclass=ABCMeta):
     #data hace referencia a un diccionario, self es una palabra reservada para acceder a atributos y metodos de una clase
     def __init__(self, data):

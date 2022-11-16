@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3042c3-503e-43b5-adfb-026ab8378ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Votaciones-santi-valen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorPermiso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorPermisoRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorRol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Controladores/ControladorUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/Permiso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/PermisoRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Modelos/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioPermiso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioPermisoRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioRol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-backend/seguridad/src/main/java/tutorial.misionTIC.seguridad/Repositorios/RepositorioUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python-backend/.idea/votaciones.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/votaciones.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorMesa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorPartido.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorResultado.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos/AbstractModelo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos/Candidato.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos/Mesa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos/Partido.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos/Resultado.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorios/CandidatoRepositorio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorios/InterfaceRepositorio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorios/MesaRepositorio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioPartido.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioResultado.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-backend/Modelos/AbstractModelo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-backend/Modelos/AbstractModelo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -61,14 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Valentina Gomez/OneDrive/Documents/Universidad/MisionTIC/Ciclo4/primer_proyecto/Votaciones-santi-valen/Java-backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valentina Gomez/OneDrive/Documents/Universidad/MisionTIC/Ciclo4/primer_proyecto/Votaciones-santi-valen/Java-backend&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Valentina Gomez\OneDrive\Documents\Universidad\MisionTIC\Ciclo4\primer_proyecto\Votaciones-santi-valen\Java-backend\seguridad\src\main\java\tutorial.misionTIC.seguridad" />

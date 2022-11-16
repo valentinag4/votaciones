@@ -1,9 +1,13 @@
 from Repositorios.CandidatoRepositorio import CandidatoRepositorio
+from Repositorios.RepositorioPartido import RepositorioPartido
 from Modelos.Candidato import Candidato
+from Modelos.Partido import Partido
 
+#valen
 class ControladorCandidato():
     def __init__(self):
         self.candidatoRepositorio = CandidatoRepositorio()
+        self.partidoRepositorio = RepositorioPartido()
 
     def index(self):
         print('Listando todas los candidatos...')
@@ -31,3 +35,9 @@ class ControladorCandidato():
     def delete(self, id):
         print('Eliminando el candidato con id ', id)
         return self.candidatoRepositorio.delete(id)
+
+    def asignarPartido(self, id, id_partido):
+        candidatoActual = Candidato(self.candidatoRepositorio.findById(id))
+        partidoActual = Partido(self.partidoRepositorio.findById(id_partido))
+        candidatoActual.Partido = partidoActual
+        return self.candidatoRepositorio.save(candidatoActual)
