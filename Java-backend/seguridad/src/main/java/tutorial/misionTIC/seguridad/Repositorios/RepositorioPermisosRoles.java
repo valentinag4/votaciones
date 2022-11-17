@@ -1,9 +1,9 @@
 package tutorial.misionTIC.seguridad.Repositorios;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import tutorial.misionTIC.seguridad.Modelos.PermisoRoles;
+import tutorial.misionTIC.seguridad.Modelos.PermisosRoles;
 
-public interface RepositorioPermisoRoles extends MongoRepository<PermisoRoles,String> {
+public interface RepositorioPermisosRoles extends MongoRepository<PermisosRoles,String> {
     @Query("{'rol.$id ': ObjectId(?0),'permiso.$id': ObjectId(?1)}")
-    PermisoRoles getPermisoRol(String id_rol,String id_permiso);
+    PermisosRoles getPermisoRol(String id_rol, String id_permiso);
 }

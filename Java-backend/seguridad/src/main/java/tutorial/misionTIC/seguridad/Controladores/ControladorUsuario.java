@@ -43,7 +43,7 @@ public class ControladorUsuario {
     }
 
     @PutMapping("{id}")
-    public Usuario show(@PathVariable String id, @RequestBody Usuario infoUsuario){
+    public Usuario update(@PathVariable String id, @RequestBody Usuario infoUsuario){
         Usuario usuarioActual = this.miRepoUsuario
                 .findById(id)
                 .orElse(null);
