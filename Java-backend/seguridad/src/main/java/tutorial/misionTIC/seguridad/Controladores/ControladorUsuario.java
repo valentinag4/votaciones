@@ -8,6 +8,8 @@ import tutorial.misionTIC.seguridad.Modelos.Usuario;
 import tutorial.misionTIC.seguridad.Repositorios.RepositorioRol;
 import tutorial.misionTIC.seguridad.Repositorios.RepositorioUsuario;
 
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
@@ -86,6 +88,20 @@ public class ControladorUsuario {
             usuarioActual.setRol(rolActual);
             return this.miRepoUsuario.save(usuarioActual);
         }else{
+            return null;
+        }
+    }
+
+    @PostMapping("/validar")
+    public Usuario validate(@RequestBody  Usuario infoUsuario, final HttpServletResponse response) throws IOException {
+        Usuario usuarioActual=this.miRepoUsuario
+                .getUserByEmail(infoUsuario.getCorreo());
+        if (usuarioActual!=null &&
+                usuarioActual.getContrasena().equals(convertirSHA256(infoUsuario.getContrasena()))) {
+            usuarioActual.setContrasena("");
+            return usuarioActual;
+        }else{
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED);
             return null;
         }
     }
