@@ -108,7 +108,7 @@ def asignarPartidoCandidato(id,id_partido):
 
 #-------------------------------Edit partidos--------------------------------------------------
 
-@app.route("/partidos",methods=['GET'])
+@app.route("/partido",methods=['GET'])
 def getPartidos():
     json = miControladorPartido.index()
     return jsonify(json)
