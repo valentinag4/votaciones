@@ -281,6 +281,10 @@ def eliminarResultado(id_resultado):
     json = response.json()
     return jsonify(json)
 
+<<<<<<< HEAD
+=======
+# Main Function
+>>>>>>> santiago
 if __name__ == '__main__':
     dataConfig = loadFileConfig()
     print("Server running : " + "http://" + dataConfig["url-backend"] + ":" + str(dataConfig["port"]))
